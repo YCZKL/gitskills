@@ -1,0 +1,9 @@
+In github new a repo(make by ChaoYu in Nanjing University Of Posts And telescommunication):
+	1, In github new a repo.
+	2, In local mkdir <repo> ,then cd <repo> and  then git init .
+	3, git remote add origin <ssh clone URL>
+		(if edit the https: then we can change it by command : git remote set-url origin git@github.com=yuchaochenjie/My.git)
+	4, check the link . git remote -v 
+			    ssh -T git@github.com
+	5, git pull origin master
+	6, then we make the connect .  vim ..  git add .. git status..git commit..git pull -u origin master(the first time pull,and later we will use git pull origin master) 
